@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Graphic & Design",
+        "icon": "pen-ruler",
+        "positions_count": 357
+    },
+    {
+        "name": "Code & Programming",
+        "icon": "code",
+        "positions_count": 312
+    },
+    {
+        "name": "Digital Marketing",
+        "icon": "bullhorn",
+        "positions_count": 297
+    },
+    {
+        "name": "Video & Animation",
+        "icon": "video",
+        "positions_count": 247
+    },
+    {
+        "name": "Music & Audio",
+        "icon": "music",
+        "positions_count": 204
+    },
+    {
+        "name": "Account & Finance",
+        "icon": "chart-simple",
+        "positions_count": 167
+    },
+    {
+        "name": "Health & Care",
+        "icon": "notes-medical",
+        "positions_count": 125
+    },
+    {
+        "name": "Data & science",
+        "icon": "database",
+        "positions_count": 57
+    }
+]

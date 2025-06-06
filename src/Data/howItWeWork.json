@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "user-plus",
+        "name": "Create account",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+    },
+    {
+        "icon": "cloud-arrow-up",
+        "name": "Upload Cv/Resume",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+    },
+    {
+        "icon": "magnifying-glass-plus",
+        "name": "Find suitable job",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+    },
+    {
+        "icon": "circle-check",
+        "name": "Apply job",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+    }
+]

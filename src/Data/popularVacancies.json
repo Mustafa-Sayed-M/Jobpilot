@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Anesthesiologists",
+        "positions_count": "45904"
+    },
+    {
+        "name": "Surgeons",
+        "positions_count": "50364"
+    },
+    {
+        "name": "Obstetricians-Gynecologists",
+        "positions_count": "4339"
+    },
+    {
+        "name": "Orthodontists",
+        "positions_count": "20079"
+    },
+    {
+        "name": "Maxillofacial Surgeons",
+        "positions_count": "74875"
+    },
+    {
+        "name": "Software Developer",
+        "positions_count": "43359"
+    },
+    {
+        "name": "Psychiatrists",
+        "positions_count": "18599"
+    },
+    {
+        "name": "Data Scientist",
+        "positions_count": "2800"
+    },
+    {
+        "name": "Financial Manager",
+        "positions_count": "61391"
+    },
+    {
+        "name": "Management Analysis",
+        "positions_count": "93046"
+    },
+    {
+        "name": "IT Manager",
+        "positions_count": "50963"
+    },
+    {
+        "name": "Operations Research Analysis",
+        "positions_count": "16627"
+    }
+]

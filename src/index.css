@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #0a65cc;
+    --color-section: #f7f7f8;
+    --color-app-text: #18191C;
+}
+
+@utility container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+/* Global */
+html,
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Modals */
+.custom-modal {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+.custom-modal .modal-content {
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+/* Clerk */
+.cl-avatarBox {
+    width: 2.5rem;
+    height: 2.5rem;
+}

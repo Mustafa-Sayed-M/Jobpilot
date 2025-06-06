@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "briefcase",
+        "name": "Live Job",
+        "count": "1,75,324"
+    },
+    {
+        "icon": "building",
+        "name": "Companies",
+        "count": "97,354"
+    },
+    {
+        "icon": "user-group",
+        "name": "Candidates",
+        "count": "38,47,154"
+    },
+    {
+        "icon": "briefcase",
+        "name": "New Jobs",
+        "count": "7,532"
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "title": "Technical Support Specialist",
+        "salary": {
+            "from": 20000,
+            "to": 25000
+        },
+        "time_work": "Part Time",
+        "company": {
+            "name": "Google Inc.",
+            "location": "Dhaka, Bangladesh",
+            "company_logo": "https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Technical Support Specialist",
+        "salary": {
+            "from": 20000,
+            "to": 25000
+        },
+        "time_work": "Part Time",
+        "company": {
+            "name": "Google Inc.",
+            "location": "Dhaka, Bangladesh",
+            "company_logo": "https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Technical Support Specialist",
+        "salary": {
+            "from": 20000,
+            "to": 25000
+        },
+        "time_work": "Part Time",
+        "company": {
+            "name": "Google Inc.",
+            "location": "Dhaka, Bangladesh",
+            "company_logo": "https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Technical Support Specialist",
+        "salary": {
+            "from": 20000,
+            "to": 25000
+        },
+        "time_work": "Part Time",
+        "company": {
+            "name": "Google Inc.",
+            "location": "Dhaka, Bangladesh",
+            "company_logo": "https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Technical Support Specialist",
+        "salary": {
+            "from": 20000,
+            "to": 25000
+        },
+        "time_work": "Part Time",
+        "company": {
+            "name": "Google Inc.",
+            "location": "Dhaka, Bangladesh",
+            "company_logo": "https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Technical Support Specialist",
+        "salary": {
+            "from": 20000,
+            "to": 25000
+        },
+        "time_work": "Part Time",
+        "company": {
+            "name": "Google Inc.",
+            "location": "Dhaka, Bangladesh",
+            "company_logo": "https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Technical Support Specialist",
+        "salary": {
+            "from": 20000,
+            "to": 25000
+        },
+        "time_work": "Part Time",
+        "company": {
+            "name": "Google Inc.",
+            "location": "Dhaka, Bangladesh",
+            "company_logo": "https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Technical Support Specialist",
+        "salary": {
+            "from": 20000,
+            "to": 25000
+        },
+        "time_work": "Part Time",
+        "company": {
+            "name": "Google Inc.",
+            "location": "Dhaka, Bangladesh",
+            "company_logo": "https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Technical Support Specialist",
+        "salary": {
+            "from": 20000,
+            "to": 25000
+        },
+        "time_work": "Part Time",
+        "company": {
+            "name": "Google Inc.",
+            "location": "Dhaka, Bangladesh",
+            "company_logo": "https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg"
+        }
+    },
+    {
+        "id": 10,
+        "title": "Technical Support Specialist",
+        "salary": {
+            "from": 20000,
+            "to": 25000
+        },
+        "time_work": "Part Time",
+        "company": {
+            "name": "Google Inc.",
+            "location": "Dhaka, Bangladesh",
+            "company_logo": "https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg"
+        }
+    },
+    {
+        "id": 11,
+        "title": "Technical Support Specialist",
+        "salary": {
+            "from": 20000,
+            "to": 25000
+        },
+        "time_work": "Part Time",
+        "company": {
+            "name": "Google Inc.",
+            "location": "Dhaka, Bangladesh",
+            "company_logo": "https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg"
+        }
+    },
+    {
+        "id": 12,
+        "title": "Technical Support Specialist",
+        "salary": {
+            "from": 20000,
+            "to": 25000
+        },
+        "time_work": "Part Time",
+        "company": {
+            "name": "Google Inc.",
+            "location": "Dhaka, Bangladesh",
+            "company_logo": "https://static.dezeen.com/uploads/2025/05/sq-google-g-logo-update_dezeen_2364_col_0-852x852.jpg"
+        }
+    }
+]
