@@ -43,7 +43,7 @@ import EmployerFoundingInfoPage from "./Pages/DashboardsPages/EmployerDashboard/
 import EmployerSocialMediaProfilePage from "./Pages/DashboardsPages/EmployerDashboard/SetupPages/EmployerSocialMediaProfilePage";
 import EmployerContactPage from "./Pages/DashboardsPages/EmployerDashboard/SetupPages/EmployerContactPage";
 // # Auth Pages:
-import SigninPage from "./Pages/AuthPages/SignInPage";
+import SigninPage from "./Pages/AuthPages/SigninPage";
 import SignupPage from "./Pages/AuthPages/SignupPage";
 import ForgetPasswordPage from "./Pages/AuthPages/ForgetPasswordPage";
 import ResetPasswordPage from "./Pages/AuthPages/ResetPasswordPage";
