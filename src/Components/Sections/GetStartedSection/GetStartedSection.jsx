@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import RegisterCard from "./Components/RegisterCard";
 import { useAppContext } from "../../../Contexts/AppContext";
 
@@ -13,12 +12,12 @@ function GetStartedSection() {
             <div className="container flex lg:items-center gap-5 max-lg:flex-col">
                 {/* Candidate */}
                 <RegisterCard
-                    bgUrl="https://img.freepik.com/free-photo/flat-lay-desk-concept-with-copy-space_23-2148236810.jpg?t=st=1748974488~exp=1748978088~hmac=58a15a580dc49caf01e80839804c87008cea1b9001246ad73b4cff384650f847&w=1380"
+                    bgUrl="https://img.freepik.com/free-photo/glasses-lie-laptop-reflecting-light-from-screen-dark_169016-53056.jpg?uid=R138128925&ga=GA1.1.1165921773.1749749829&w=740"
                     type="Candidate"
                 />
                 {/* Employers */}
                 <RegisterCard
-                    bgUrl="https://img.freepik.com/free-photo/skyscraper-view-city-leader-window-frame_1134-1034.jpg?t=st=1748974977~exp=1748978577~hmac=4d4b34cb41100cd9fc60fa5bc18564e442d511450eca7b060e9aac5bf320fad2&w=1380"
+                    bgUrl="https://img.freepik.com/free-photo/casual-businessman-sitting-dark_53876-101864.jpg?uid=R138128925&ga=GA1.1.1165921773.1749749829&semt=ais_hybrid&w=740"
                     type="Employer"
                 />
             </div>
