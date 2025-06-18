@@ -1,8 +1,8 @@
 import { Formik } from "formik";
 import * as Yup from 'yup';
-import InputGroup from "./InputGroup";
+import InputGroup from "../Atoms/InputGroup";
 import AuthMethods from "./AuthMethods";
-import SubmitBtn from "./SubmitBtn";
+import SubmitBtn from "../Atoms/SubmitBtn";
 import RoleSelector from "./RoleSelector";
 import { Link } from "react-router-dom";
 import AuthConditions from "./AuthConditions";
