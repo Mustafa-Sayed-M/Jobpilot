@@ -11,9 +11,9 @@ function TermsAndConditionsPage() {
             />
             <div className="container py-10">
                 {/* Content Grid */}
-                <div className="content-grid grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
+                <div className="content-grid flex items-start gap-10 max-lg:flex-col-reverse">
                     {/* Main Content */}
-                    <div className="main-content lg:col-span-2 space-y-10">
+                    <div className="main-content lg:col-span-2 space-y-10 lg:w-3/4">
                         {
                             termsAndConditionData.map(({ name, description, list = [] }, index) => (<div className="" key={index}>
                                 {/* Name */}
@@ -34,7 +34,7 @@ function TermsAndConditionsPage() {
                         }
                     </div>
                     {/* Table of Contents */}
-                    <div className="table-of-contents p-3 border-l  border-l-gray-400">
+                    <div className="table-of-contents lg:p-3 lg:border-l  lg:border-l-gray-400">
                         <h3 className="uppercase mb-3 text-gray-400">Table of Contents</h3>
                         <ul className="space-y-1">
                             <li className="text-gray-600 font-medium">01. Terms & Condition</li>
