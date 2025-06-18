@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Your Account",
+        "faqsList": [
+            {
+                "q": "Donec in ipsum sit amet mi tincidunt lacinia ut id risus.",
+                "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel fermentum nulla."
+            },
+            {
+                "q": "Donec in ipsum sit amet mi tincidunt lacinia ut id risus.",
+                "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisl nec urna porta aliquet."
+            },
+            {
+                "q": "Etiam rerum ligula at dui tempor, eu tempus ligula triste.",
+                "a": "Aenean ultricies metus vel justo sodales, ac tincidunt elit convallis. Suspendisse non neque id lorem porta convallis."
+            },
+            {
+                "q": "Morbid vitae neque eu sapien aliquet rhonchus.",
+                "a": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+            }
+        ]
+    },
+    {
+        "name": "Employers and Jobs",
+        "faqsList": [
+            {
+                "q": "Donec in ipsum sit amet mi tincidunt lacinia ut id risus.",
+                "a": "Curabitur et massa non tortor tincidunt placerat. Nulla facilisi. Quisque blandit mi ut velit tincidunt, at tempus ligula mattis."
+            },
+            {
+                "q": "Etiam rerum ligula at dui tempor, eu tempus ligula triste.",
+                "a": "Ut eu risus at ligula scelerisque imperdiet. Nam accumsan enim a lacus tincidunt convallis."
+            },
+            {
+                "q": "Morbid vitae neque eu sapien aliquet rhonchus.",
+                "a": "Vivamus in sem ut orci volutpat vehicula nec in leo. Fusce lacinia porta justo."
+            }
+        ]
+    },
+    {
+        "name": "Candidate & Resume",
+        "faqsList": [
+            {
+                "q": "Donec in ipsum sit amet mi tincidunt lacinia ut id risus.",
+                "a": "Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames."
+            },
+            {
+                "q": "Etiam rerum ligula at dui tempor, eu tempus ligula triste.",
+                "a": "Nam posuere, nulla at cursus malesuada, purus erat pulvinar sem, sed finibus risus risus eget elit."
+            },
+            {
+                "q": "Morbid vitae neque eu sapien aliquet rhonchus.",
+                "a": "In nec eros ut magna malesuada convallis non ut lorem. Cras accumsan magna sed tellus vehicula, ac gravida metus tempus."
+            }
+        ]
+    }
+]
