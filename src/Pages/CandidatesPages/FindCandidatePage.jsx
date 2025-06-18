@@ -6,7 +6,7 @@ import CandidatesResultsSection from "../../Components/Sections/CandidatesResult
 
 function FindCandidatePage() {
     return (
-        <div className="find-candidate-page">
+        <div className="find-candidate-page min-h-screen">
             {/* Breadcrumbs */}
             <Breadcrumbs
                 pageName="Find Candidate"

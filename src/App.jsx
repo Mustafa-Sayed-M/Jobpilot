@@ -56,10 +56,7 @@ import CandidateModal from "./Components/Modals/CandidateModal/CandidateModal";
 // Layouts
 import MainLayout from "./Layouts/MainLayout";
 import AuthLayout from "./Layouts/AuthLayout";
-import CandidateDashboardLayout from "./Layouts/CandidateDashboardLayout";
 import EmployerDashboardSetupLayout from "./Layouts/EmployerDashboardSetupLayout";
-import EmployerDashboardLayout from "./Layouts/EmployerDashboardLayout";
-import InnerPagesLayout from "./Layouts/InnerPagesLayout";
 
 function App() {
 
@@ -78,6 +75,13 @@ function App() {
           <Route path="/applications" element={<ApplicationsPage />} />
           <Route path="/pricing-plans" element={<PricingPlansPage />} />
           <Route path="/customer-support" element={<CustomerSupportPage />} />
+          <Route path="/terms-and-conditions" element=<TermsAndConditionsPage /> />
+          <Route path="/coming-soon" element=<ComingSoonPage /> />
+          <Route path="/faqs" element=<FaqsPage /> />
+          <Route path="/contact" element=<ContactPage /> />
+          <Route path="/about" element=<AboutPage /> />
+          <Route path="/blogs" element=<BlogsPage /> />
+          <Route path="/blogs/:blogId" element=<BlogDetailsPage /> />
           {/* Jobs */}
           <Route path="/find-job" element={<FindJobPage />}>
             <Route path="/find-job/filters" element={<FiltersModal />} />
@@ -92,6 +96,22 @@ function App() {
           <Route path="/find-candidate" element={<FindCandidatePage />}>
             <Route path="/find-candidate/:candidateId" element={<CandidateModal />} />
           </Route>
+          {/* === Employer Dashboard === */}
+          <Route path="/employer-dashboard" element={<EmployerOverviewPage />} />
+          <Route path="/employer-dashboard/post-job" element={<EmployerPostJobPage />} />
+          <Route path="/employer-dashboard/my-jobs" element={<EmployerMyJobsPage />} />
+          <Route path="/employer-dashboard/saved-candidate" element={<EmployerSavedCandidatePage />} />
+          <Route path="/employer-dashboard/plans-and-billing" element={<EmployerPlansAndBillingPage />} />
+          <Route path="/employer-dashboard/all-companies" element={<EmployerAllCompaniesPage />} />
+          <Route path="/employer-dashboard/settings" element={<EmployerSettingsPage />} />
+          {/* Candidate Dashboard */}
+          <Route path="/candidate-dashboard" element={<CandidateOverviewPage />} />
+          <Route path="/candidate-dashboard/applied-jobs" element={<CandidateAppliedJobsPage />} />
+          <Route path="/candidate-dashboard/favorite-jobs" element={<CandidateFavoriteJobsPage />} />
+          <Route path="/candidate-dashboard/job-alert" element={<CandidateJobAlertPage />} />
+          <Route path="/candidate-dashboard/settings" element={<CandidateSettingsPage />}>
+            <Route path="/candidate-dashboard/settings/add-cv" element={<AddCvModal />} />
+          </Route>
         </Route>
 
         {/* === Auth Layout === */}
@@ -103,17 +123,6 @@ function App() {
           <Route path="/email-verification" element={<EmailVerificationPage />} />
         </Route>
 
-        {/* === Candidate Dashboard Layout === */}
-        <Route element={<CandidateDashboardLayout />}>
-          <Route path="/candidate-dashboard" element={<CandidateOverviewPage />} />
-          <Route path="/candidate-dashboard/applied-jobs" element={<CandidateAppliedJobsPage />} />
-          <Route path="/candidate-dashboard/favorite-jobs" element={<CandidateFavoriteJobsPage />} />
-          <Route path="/candidate-dashboard/job-alert" element={<CandidateJobAlertPage />} />
-          <Route path="/candidate-dashboard/settings" element={<CandidateSettingsPage />}>
-            <Route path="/candidate-dashboard/settings/add-cv" element={<AddCvModal />} />
-          </Route>
-        </Route>
-
         {/* === Employer Dashboard Setup Layout === */}
         <Route element={<EmployerDashboardSetupLayout />}>
           <Route path="/employer-dashboard/setup" element={<EmployerCompanyInfoPage />} />
@@ -122,28 +131,8 @@ function App() {
           <Route path="/employer-dashboard/setup/contact" element={<EmployerContactPage />} />
         </Route>
 
-        {/* === Employer Dashboard Layout === */}
-        <Route element={<EmployerDashboardLayout />}>
-          <Route path="/employer-dashboard" element={<EmployerOverviewPage />} />
-          <Route path="/employer-dashboard/post-job" element={<EmployerPostJobPage />} />
-          <Route path="/employer-dashboard/my-jobs" element={<EmployerMyJobsPage />} />
-          <Route path="/employer-dashboard/saved-candidate" element={<EmployerSavedCandidatePage />} />
-          <Route path="/employer-dashboard/plans-and-billing" element={<EmployerPlansAndBillingPage />} />
-          <Route path="/employer-dashboard/all-companies" element={<EmployerAllCompaniesPage />} />
-          <Route path="/employer-dashboard/settings" element={<EmployerSettingsPage />} />
-        </Route>
-
-        {/* Inner Pages */}
-        <Route element={<InnerPagesLayout />}>
-          <Route path="*" element=<NotFoundPage /> />
-          <Route path="/terms-and-conditions" element=<TermsAndConditionsPage /> />
-          <Route path="/coming-soon" element=<ComingSoonPage /> />
-          <Route path="/faqs" element=<FaqsPage /> />
-          <Route path="/contact" element=<ContactPage /> />
-          <Route path="/about" element=<AboutPage /> />
-          <Route path="/blogs" element=<BlogsPage /> />
-          <Route path="/blogs/:blogId" element=<BlogDetailsPage /> />
-        </Route>
+        {/* Not Found Page */}
+        <Route path="*" element=<NotFoundPage /> />
       </Routes>
     </div>
   )
