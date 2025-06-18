@@ -12,7 +12,7 @@ const commonLinks = [
 ]
 const navLinksJustUser = [
     ...commonLinks,
-    { to: '/employers', label: 'Employers' },
+    { to: '/find-employer', label: 'Employers' },
     { to: '/candidates', label: 'Candidates' },
     { to: '/pricing-plans', label: 'Pricing Plans' },
     { to: '/customer-support', label: 'Customer Support' },

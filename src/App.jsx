@@ -9,7 +9,6 @@ import EmployerDetailsPage from "./Pages/EmployersPages/EmployerDetailsPage";
 import FindCandidatePage from "./Pages/CandidatesPages/FindCandidatePage";
 import JobAlertsPage from "./Pages/GlobalPages/JobAlertsPage";
 import MyJobsPage from "./Pages/GlobalPages/MyJobsPage";
-import EmployersPage from "./Pages/GlobalPages/EmployersPage";
 import CandidatesPage from "./Pages/GlobalPages/CandidatesPage";
 import ApplicationsPage from "./Pages/GlobalPages/ApplicationsPage";
 import PricingPlansPage from "./Pages/GlobalPages/PricingPlansPage";
@@ -24,7 +23,6 @@ import AboutPage from "./Pages/InnerPages/AboutPage";
 import BlogsPage from "./Pages/InnerPages/Blogs/BlogsPage";
 import BlogDetailsPage from "./Pages/InnerPages/Blogs/BlogDetailsPage";
 // # Candidate Pages:
-import CandidateDetailsPage from "./Pages/CandidatesPages/CandidateDetailsPage";
 import CandidateOverviewPage from "./Pages/DashboardsPages/CandidateDashboard/Pages/CandidateOverviewPage";
 import CandidateAppliedJobsPage from "./Pages/DashboardsPages/CandidateDashboard/Pages/CandidateAppliedJobsPage";
 import CandidateFavoriteJobsPage from "./Pages/DashboardsPages/CandidateDashboard/Pages/CandidateFavoriteJobsPage";
@@ -70,7 +68,6 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/my-jobs" element={<MyJobsPage />} />
           <Route path="/job-alerts" element={<JobAlertsPage />} />
-          <Route path="/employers" element={<EmployersPage />} />
           <Route path="/candidates" element={<CandidatesPage />} />
           <Route path="/applications" element={<ApplicationsPage />} />
           <Route path="/pricing-plans" element={<PricingPlansPage />} />
