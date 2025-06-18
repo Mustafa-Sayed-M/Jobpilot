@@ -12,7 +12,7 @@ function FeaturedJobsSection() {
                     title="Featured Jobs"
                 >
                     <Link
-                        to={`/find-jobs`}
+                        to={`/find-job`}
                         className="flex items-center gap-2 py-2 px-4 rounded-md text-primary font-semibold border border-primary/10 transition sm:hover:bg-primary sm:hover:text-white"
                     >View All</Link>
                 </SectionHeader>
