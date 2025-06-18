@@ -34,7 +34,7 @@ const linksComponentsData = [
         name: "Support",
         links: [
             { to: "/faqs", label: "Faqs" },
-            { to: "", label: "Privacy Policy" },
+            { to: "/terms-and-conditions", label: "Privacy Policy" },
             { to: "/terms-and-conditions", label: "Terms & Conditions" }
         ]
     }
